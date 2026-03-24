@@ -1,160 +1,38 @@
 [
     {
-        "gym_pricing": {
-            "type": "General Fitness / Weight Training",
-            "billing": "Monthly Subscription",
-            "tiers": [
-                {
-                    "id": "basic",
-                    "label": "Starter",
-                    "name": "Basic",
-                    "price": {
-                        "amount": 29,
-                        "currency": "USD",
-                        "period": "month"
-                    },
-                    "description": "Perfect for individuals who want access to the gym floor and core equipment.",
-                    "most_popular": false,
-                    "features": [
-                        {
-                            "name": "Full gym floor access",
-                            "included": true
-                        },
-                        {
-                            "name": "Free weights & machines",
-                            "included": true
-                        },
-                        {
-                            "name": "Cardio zone (treadmills, bikes)",
-                            "included": true
-                        },
-                        {
-                            "name": "Locker room & showers",
-                            "included": true
-                        },
-                        {
-                            "name": "Standard gym hours (6am–10pm)",
-                            "included": true
-                        },
-                        {
-                            "name": "Group fitness classes",
-                            "included": false
-                        },
-                        {
-                            "name": "Personal trainer sessions",
-                            "included": false
-                        },
-                        {
-                            "name": "Nutrition consultation",
-                            "included": false
-                        },
-                        {
-                            "name": "Guest passes",
-                            "included": false
-                        }
-                    ]
-                },
-                {
-                    "id": "standard",
-                    "label": "Most Popular",
-                    "name": "Standard",
-                    "price": {
-                        "amount": 54,
-                        "currency": "USD",
-                        "period": "month"
-                    },
-                    "description": "Great for members who want classes and a more complete fitness experience.",
-                    "most_popular": true,
-                    "features": [
-                        {
-                            "name": "Full gym floor access",
-                            "included": true
-                        },
-                        {
-                            "name": "Free weights & machines",
-                            "included": true
-                        },
-                        {
-                            "name": "Cardio zone (treadmills, bikes)",
-                            "included": true
-                        },
-                        {
-                            "name": "Locker room & showers",
-                            "included": true
-                        },
-                        {
-                            "name": "Extended hours (5am–11pm)",
-                            "included": true
-                        },
-                        {
-                            "name": "Unlimited group fitness classes",
-                            "included": true
-                        },
-                        {
-                            "name": "1 personal trainer session / month",
-                            "included": true
-                        },
-                        {
-                            "name": "Nutrition consultation",
-                            "included": false
-                        },
-                        {
-                            "name": "Guest passes",
-                            "included": false
-                        }
-                    ]
-                },
-                {
-                    "id": "premium",
-                    "label": "All-Inclusive",
-                    "name": "Premium",
-                    "price": {
-                        "amount": 89,
-                        "currency": "USD",
-                        "period": "month"
-                    },
-                    "description": "The full experience — ideal for serious members who want maximum support and perks.",
-                    "most_popular": false,
-                    "features": [
-                        {
-                            "name": "Full gym floor access",
-                            "included": true
-                        },
-                        {
-                            "name": "Free weights & machines",
-                            "included": true
-                        },
-                        {
-                            "name": "Cardio zone (treadmills, bikes)",
-                            "included": true
-                        },
-                        {
-                            "name": "Locker room & showers",
-                            "included": true
-                        },
-                        {
-                            "name": "24/7 access",
-                            "included": true
-                        },
-                        {
-                            "name": "Unlimited group fitness classes",
-                            "included": true
-                        },
-                        {
-                            "name": "4 personal trainer sessions / month",
-                            "included": true
-                        },
-                        {
-                            "name": "Monthly nutrition consultation",
-                            "included": true
-                        },
-                        {
-                            "name": "2 guest passes / month",
-                            "included": true
-                        }
-                    ]
-                }
-            ]
-        }
+        "name": "Basic Plan",
+        "price": 1500,
+        "billing_cycle": "monthly",
+        "features": [
+            "Access to gym equipment",
+            "Cardio & strength training areas",
+            "Locker facility",
+            "Open gym hours"
+        ]
+    },
+    {
+        "name": "Standard Plan",
+        "price": 3000,
+        "billing_cycle": "monthly",
+        "features": [
+            "Everything in Basic",
+            "Personal trainer (2 sessions per week)",
+            "Diet guideline",
+            "Group classes (Yoga / Zumba)",
+            "Progress tracking"
+        ]
+    },
+    {
+        "name": "Premium Plan",
+        "price": 5000,
+        "billing_cycle": "monthly",
+        "features": [
+            "Everything in Standard",
+            "Unlimited personal trainer support",
+            "Customized workout & diet plan",
+            "Body composition analysis",
+            "24/7 gym access",
+            "Priority support"
+        ]
     }
 ]
